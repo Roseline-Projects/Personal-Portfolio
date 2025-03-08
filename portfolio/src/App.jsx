@@ -3,18 +3,26 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Header from './components/home/Header'
 import About from './components/home/About'
+import Sidebar from './components/Sidebar'
+
+import Resume from './components/resume/Resume'
 
 function App() {
 
   return (
     <div>
-      <Navbar />
+      {/* <Sidebar /> */}
+      <Resume />
+
+
+
+      {/* <Navbar />
       <div className=''>
         <Header />
       </div>
       <div className='my-8'>
         <About />
-      </div>
+      </div> */}
     </div>
   )
 }
