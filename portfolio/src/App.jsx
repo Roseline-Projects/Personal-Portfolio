@@ -11,11 +11,10 @@ function App() {
 
   return (
     <div>
-      {/* <Sidebar /> */}
       <Resume />
+      {/* <Sidebar /> */}
 
-
-
+      
       {/* <Navbar />
       <div className=''>
         <Header />
